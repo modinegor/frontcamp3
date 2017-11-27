@@ -9,7 +9,7 @@ let sources, shown,
 
 function init() {
     showSources();
-    showMessage("Chose source to see the news")
+    showMessage("Chose source to see the news");
 
     document.getElementById('scroll-up').onclick = scrollSources;
     document.getElementById('scroll-down').onclick = scrollSources;
@@ -95,7 +95,7 @@ function initFilter() {
     country_cmbx.onchange = changeFilter;
     language_cmbx.onchange = changeFilter;
 
-    filter_init = true;
+    init_filter = true;
 }
 
 function changeFilter() {
